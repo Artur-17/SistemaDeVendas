@@ -1,0 +1,18 @@
+object dtmConexao: TdtmConexao
+  OldCreateOrder = False
+  Height = 260
+  Width = 464
+  object conConexao: TZConnection
+    ControlsCodePage = cCP_UTF16
+    AutoEncodeStrings = True
+    Catalog = ''
+    HostName = ''
+    Port = 0
+    Database = ''
+    User = ''
+    Password = ''
+    Protocol = ''
+    Left = 256
+    Top = 128
+  end
+end

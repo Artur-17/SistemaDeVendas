@@ -1,0 +1,26 @@
+unit uCadCategorias;
+
+interface
+
+uses
+  Winapi.Windows, Winapi.Messages, System.SysUtils, System.Variants, System.Classes, Vcl.Graphics,
+  Vcl.Controls, Vcl.Forms, Vcl.Dialogs, uTelaHeranca, Data.DB,
+  ZAbstractRODataset, ZAbstractDataset, ZDataset, Vcl.DBCtrls, Vcl.Buttons,
+  Vcl.Grids, Vcl.DBGrids, Vcl.StdCtrls, Vcl.Mask, Vcl.ExtCtrls, Vcl.ComCtrls;
+
+type
+  TfrmHeranca1 = class(TfrmHeranca)
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+var
+  frmHeranca1: TfrmHeranca1;
+
+implementation
+
+{$R *.dfm}
+
+end.
